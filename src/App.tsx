@@ -1,10 +1,13 @@
-import Note from './Note';
+import Note from './components/Note';
 
 function App() {
-    return <div>
-        <Note></Note>
-        <Note></Note>
-    </div>
+    return (
+        <>
+            <Note />
+            <Note />
+            <Note />
+        </>    
+    )
 }
 
 export default App;
