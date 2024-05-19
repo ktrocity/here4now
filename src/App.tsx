@@ -7,7 +7,7 @@ import Video from './components/video';
 import Recorder from './components/recorder';
 import Power from './components/power';
 
-function App() {
+const App: React.FC = () => {
     const [mixVisible, setMixVisibility] = useState(false);
 
     return (
@@ -24,3 +24,4 @@ function App() {
 }
 
 export default App;
+
