@@ -3,7 +3,7 @@ import '../styles/styles.css';
 function Recorder() {
 
     return (
-        <div className='Subs'>
+        <div className='black'>
             <p>Recorder</p>
         </div>
     );

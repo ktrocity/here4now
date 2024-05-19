@@ -6,6 +6,8 @@ import Show from './components/show';
 import Video from './components/video';
 import Recorder from './components/recorder';
 import Power from './components/power';
+import Slide from './components/slide';
+
 
 const App = () => {
     const [showVisible, setShowVisibility] = useState(false);
@@ -14,11 +16,11 @@ const App = () => {
     const [recorderVisible, setRecorderVisibility] = useState(false);
 
     return (
-        <div className="Flex">
-            <div className="PageMenu">
+        <div className="flex">
+            <div className="pageMenu">
                 <Pages setShowVisibility={setShowVisibility} setMixVisibility={setMixVisibility} setVideoVisibility={setVideoVisibility} setRecorderVisibility={setRecorderVisibility}/>
             </div>
-            <div className="Controls">
+            <div className="controls">
                 <Docked />
                 {showVisible && <Show />}
                 {mixVisible && <Mix />}

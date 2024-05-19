@@ -3,7 +3,7 @@ import '../styles/styles.css';
 function Power() {
 
     return (
-        <div className='Subs'>
+        <div className='black'>
             <p>Power</p>
         </div>
     );

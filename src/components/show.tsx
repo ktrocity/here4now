@@ -3,7 +3,7 @@ import '../styles/styles.css';
 function Show() {
 
     return (
-        <div className='Subs'>
+        <div className='black'>
             <p>Show Feed</p>
         </div>
     );
