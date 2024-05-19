@@ -1,20 +1,15 @@
-import { useState } from "react";
+import React from 'react';
 import '../styles/styles.css';
 
-function Pages() {
-
-interface Props {
-    onClick: () => void;
-    
-}
+const Pages = ({ setMixVisibility }) => {
     return (
-            <>
-                <button className="icon" onClick={() => console.log('Clicked')}>Show Feed</button>
-                <button className="icon">Audio Mix</button>
-                <button className="icon">Projection</button>                
-                <button className="icon">Recorder</button>
-                <button className="icon">Shut Down</button>                
-            </>
+        <>
+            <button className="icon">Show Feed</button>
+            <button className="icon" onClick={() => setMixVisibility(true)}>Audio Mix</button>
+            <button className="icon">Projection</button>                
+            <button className="icon">Recorder</button>
+            <button className="icon">Shut Down</button>                
+        </>
     );
 }
 

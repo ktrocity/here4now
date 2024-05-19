@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Docked from './components/docked';
 import Pages from './components/pages';
 import Mix from './components/mix';
@@ -6,19 +7,20 @@ import Video from './components/video';
 import Recorder from './components/recorder';
 import Power from './components/power';
 
-
 function App() {
+    const [mixVisible, setMixVisibility] = useState(false);
+
     return (
         <div className="Flex">
             <div className="PageMenu">
-                <Pages />
+                <Pages setMixVisibility={setMixVisibility} />
             </div>
             <div className="Controls">
                 <Docked />
-                <Mix />
+                {mixVisible && <Mix />}
             </div>
         </div>
-    )
+    );
 }
 
 export default App;
