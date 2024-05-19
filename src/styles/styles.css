@@ -27,6 +27,8 @@ body {
 
 button {
   align-items: flex-end;
+  background-color: transparent;
+  border-width: 0px;
   color: #ffffff;
   display: flex;
   margin: 10px;
@@ -35,16 +37,49 @@ button {
   transition: border-color 0.25s;
 }
 button:hover,
-button:active{}
+button:active{
+  border-width: 0px;
+}
 
-  .icon{
-    background-image: url(../assets/icon.png);
+  .subshow{
+    background-image: url(../assets/130-100-SubShow.svg);
     height: 100px;
     width: 130px;}
-  .icon:hover,
-  .icon:active{
-    background-image: url(../assets/icon-active.png)}
+  .subshow:hover,
+  .subshow:active{
+    background-image: url(../assets/130-100-SubShow-Active.svg)}
 
+  .submix{
+    background-image: url(../assets/130-100-SubMix.svg);
+    height: 100px;
+    width: 130px;}
+  .submix:hover,
+  .submix:active{
+    background-image: url(../assets/130-100-SubMix-Active.svg)}
+
+  .subvideo{
+    background-image: url(../assets/130-100-SubVideo.svg);
+    height: 100px;
+    width: 130px;}
+  .subvideo:hover,
+  .subvideo:active{
+    background-image: url(../assets/130-100-SubVideo-Active.svg)}
+
+  .subrecord{
+    background-image: url(../assets/130-100-SubRecord.svg);
+    height: 100px;
+    width: 130px;}
+  .subrecord:hover,
+  .subrecord:active{
+    background-image: url(../assets/130-100-SubRecord-Active.svg)}
+
+  .subpower{
+    background-image: url(../assets/130-100-SubPower.svg);
+    height: 100px;
+    width: 130px;}
+  .subpower:hover,
+  .subpower:active{
+    background-image: url(../assets/130-100-SubPower-Active.svg)}
 
 /* Containers */
     
@@ -85,5 +120,5 @@ button:active{}
 
 h1 {
   font-size: 3.2em;
-  line-height: 1.1;
+  font-weight: 400;
 }

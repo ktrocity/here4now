@@ -16,11 +16,11 @@ const Pages = ({ setMixVisibility, setShowVisibility, setVideoVisibility, setRec
 
     return (
         <>
-            <button className="icon" onClick={() => { hideComponents(); setShowVisibility(true); }}>Show Feed</button>        
-            <button className="icon" onClick={() => { hideComponents(); setMixVisibility(true); }}>Audio Mix</button>        
-            <button className="icon" onClick={() => {hideComponents(); setVideoVisibility(true); }}>Projection</button>
-            <button className="icon" onClick={() => {hideComponents(); setRecorderVisibility(true);  }}>Recorder</button>
-            <button className="icon" onClick={hideComponents}>Shut Down</button>
+            <button className="subshow" onClick={() => { hideComponents(); setShowVisibility(true); }}>Show Feed</button>        
+            <button className="submix" onClick={() => { hideComponents(); setMixVisibility(true); }}>Audio Mix</button>        
+            <button className="subvideo" onClick={() => {hideComponents(); setVideoVisibility(true); }}>Projection</button>
+            <button className="subrecord" onClick={() => {hideComponents(); setRecorderVisibility(true);  }}>Recorder</button>
+            <button className="subpower" onClick={hideComponents}>Shut Down</button>
         </>
     );
 }
