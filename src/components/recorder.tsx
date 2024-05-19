@@ -3,7 +3,7 @@ import '../styles/styles.css';
 function Recorder() {
 
     return (
-        <div className='SubMix'>
+        <div className='Subs'>
             <p>Recorder</p>
         </div>
     );

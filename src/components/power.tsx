@@ -3,7 +3,7 @@ import '../styles/styles.css';
 function Power() {
 
     return (
-        <div className='SubMix'>
+        <div className='Subs'>
             <p>Power</p>
         </div>
     );

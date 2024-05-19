@@ -3,7 +3,7 @@ import '../styles/styles.css';
 function Video() {
 
     return (
-        <div className='SubMix'>
+        <div className='Subs'>
             <p>Projector</p>
         </div>
     );

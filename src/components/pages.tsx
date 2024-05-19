@@ -3,21 +3,26 @@ import '../styles/styles.css';
 
 interface PagesProps {
     setMixVisibility: (visible: boolean) => void;
+    setShowVisibility: (visible: boolean) => void;
 }
 
-const Pages: React.FC<PagesProps> = ({ setMixVisibility }) => {
-    const hideMix = () => setMixVisibility(false);
+const Pages = ({ setMixVisibility, setShowVisibility, setVideoVisibility, setRecorderVisibility }) => {
+    const hideComponents = () => {
+        setShowVisibility(false);
+        setMixVisibility(false);
+        setVideoVisibility(false);
+        setRecorderVisibility(false);
+    };
 
     return (
         <>
-            <button className="icon" onClick={hideMix}>Show Feed</button>
-            <button className="icon" onClick={() => setMixVisibility(true)}>Audio Mix</button>
-            <button className="icon" onClick={hideMix}>Projection</button>
-            <button className="icon" onClick={hideMix}>Recorder</button>
-            <button className="icon" onClick={hideMix}>Shut Down</button>
+            <button className="icon" onClick={() => { hideComponents(); setShowVisibility(true); }}>Show Feed</button>        
+            <button className="icon" onClick={() => { hideComponents(); setMixVisibility(true); }}>Audio Mix</button>        
+            <button className="icon" onClick={() => {hideComponents(); setVideoVisibility(true); }}>Projection</button>
+            <button className="icon" onClick={() => {hideComponents(); setRecorderVisibility(true);  }}>Recorder</button>
+            <button className="icon" onClick={hideComponents}>Shut Down</button>
         </>
     );
 }
 
 export default Pages;
-

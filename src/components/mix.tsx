@@ -3,7 +3,7 @@ import '../styles/styles.css';
 function Mix() {
 
     return (
-        <div className='SubMix'>
+        <div className='Subs'>
             <p>Audio Mix</p>
         </div>
     );
