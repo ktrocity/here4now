@@ -4,7 +4,9 @@ function Recorder() {
 
     return (
         <div className='black'>
-            <p>Recorder</p>
+            <div className='subs'>
+                <p>Recorder</p>
+            </div>
         </div>
     );
 }

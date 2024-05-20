@@ -16,10 +16,10 @@ function Mix() {
                 <div className="subs">
                     <div>
                         <h3>Advanced Settings</h3>
-                        <button className='setting'>Mix Mode</button>
-                        <h3>Advanced Settings</h3>
-                        <button className='setting'>Mix Mode</button>
-                        <button className='setting'>Mix Mode</button>
+                        <button className='setting'>Advanced Settings</button>
+                        <h3>Audio Faders</h3>
+                        <button className='setting'>Playback Devices</button>
+                        <button className='setting'>Microphones</button>
                     </div>
                 </div>
             </div>

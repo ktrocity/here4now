@@ -8,30 +8,30 @@
 .slider input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
-  width: 300px;
-  height: 200px;
+  background-color: transparent;
+  height: 300px;
   transform: rotate(-90deg);
   transform-origin: 50% 50%;
-  background-color: transparent;
+  width: 250px;
 }
 
 .slider input[type="range"]::-webkit-slider-runnable-track {
   width: 100%;
-  height: 8px;
+  height: 10px;
   cursor: pointer;
   animate: 0.2s;
-  background: #f09609;
-  border-radius: 1.3px;
-  border: 0.2px solid #010101;
+  background: #000000;
+  border-radius: 10px;
+  border: 3px solid #010101;
 }
 
 .slider input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 16px;
-  height: 16px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background: #4CAF50;
+  background-image: url(../assets/40-Thumb.svg);
   cursor: pointer;
-  margin-top: -4px;
+  margin-top: -16px;
 }

@@ -1,5 +1,4 @@
 import '../styles/styles.css';
-import '../styles/preview.css';
 import '../styles/video.css';
 
 function Video() {
@@ -22,11 +21,11 @@ function Video() {
                     </div>
                     <div className='preview3'>
                         <div className='source'>
-                            <button className='transport'>trans</button>
-                            <button className='transport'>trans</button>
-                            <button className='transport'>trans</button>
-                            <button className='transport'>trans</button>
-                            <button className='transport'>trans</button>
+                            <button className='transRew' />
+                            <button className='transStop' />
+                            <button className='transPlay' />
+                            <button className='transPause' />
+                            <button className='transFwd' />
                         </div>
                     </div>                    
                 </div>

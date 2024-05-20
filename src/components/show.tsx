@@ -4,7 +4,9 @@ function Show() {
 
     return (
         <div className='black'>
-            <p>Show Feed</p>
+            <div className='subs'>
+                <p>Show Feed</p>
+            </div>
         </div>
     );
 }

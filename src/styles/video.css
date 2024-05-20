@@ -1,3 +1,80 @@
+/* Buttons */
+
+.take{
+  align-items: center;
+  background-color: #312F3D;
+  height: 70px;    
+  width: 100px;}
+
+.transFwd{
+  background-image: url(../assets/100-90-TransFwd.svg);
+  height: 90px;
+  width: 100px;    
+  }
+.transFwd:hover,
+.transFwd:active{
+    background-image: url(../assets/100-90-TransFwd-Active.svg)}
+
+.transPlay{
+  background-image: url(../assets/100-90-TransPlay.svg);
+  height: 90px;
+  width: 100px;    
+  }
+.transPlay:hover,
+.transPlay:active{
+    background-image: url(../assets/100-90-TransPlay-Active.svg)}
+
+.transPause{
+  background-image: url(../assets/100-90-TransPause.svg);
+  height: 90px;
+  width: 100px;    
+  }
+.transPause:hover,
+.transPause:active{
+    background-image: url(../assets/100-90-TransPause-Active.svg)}
+
+.transRew{
+  background-image: url(../assets/100-90-TransRew.svg);
+  height: 90px;
+  width: 100px;    
+  }
+.transRew:hover,
+.transRew:active{
+    background-image: url(../assets/100-90-TransRew-Active.svg)}
+
+.transStop{
+  background-image: url(../assets/100-90-TransStop.svg);
+  height: 90px;
+  width: 100px;    
+  }
+.transStop:hover,
+.transStop:active{
+    background-image: url(../assets/100-90-TransStop-Active.svg)}
+
+/* Containers */
+
+.preview {
+background-color: #16151A;
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+height: inherit;
+}
+
+.preview1 {
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+    grid-area: 2 / 2 / 5 / 5;
+    padding: 100px;}
+.preview2 {
+    background-color: transparent;    
+    grid-area: 1 / 1 / 3 / 6;
+    text-align:center;}
+.preview3 {
+    background-color: transparent;    
+    grid-area: 5 / 1 / 5 / 6; }
+
 .source{
   justify-content: center;
   display: flex;
