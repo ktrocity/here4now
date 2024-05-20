@@ -1,11 +1,6 @@
 import React from 'react';
 import '../styles/styles.css';
 
-interface PagesProps {
-    setMixVisibility: (visible: boolean) => void;
-    setShowVisibility: (visible: boolean) => void;
-}
-
 const Pages = ({ setMixVisibility, setShowVisibility, setVideoVisibility, setRecorderVisibility }) => {
     const hideComponents = () => {
         setShowVisibility(false);

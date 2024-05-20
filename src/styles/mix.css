@@ -1,9 +1,24 @@
+/* Buttons */
+
+.mute{
+  align-self: center;
+  background-image: url(../assets/90-60-Mute.svg);
+  height: 60px;
+  width: 90px;}
+.mute:hover,
+.mute:active{
+  background-image: url(../assets/90-60-Mute-Active.svg)}
+
+/* Containers */
+
 .mix {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
+
+/* Slider */
 
 .slider input[type="range"] {
   -webkit-appearance: none;
@@ -33,5 +48,5 @@
   border-radius: 50%;
   background-image: url(../assets/40-Thumb.svg);
   cursor: pointer;
-  margin-top: -16px;
+  margin-top: -15.5px;
 }

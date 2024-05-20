@@ -6,8 +6,14 @@ function Docked() {
         <div className='title'>
             <h1>Page Title</h1>
             <div className='dockMenu'>
-                <button className='feed'>Show Feed</button>
-                <button className='chime'>Chime</button>
+                <div>
+                    <p>Show Feed</p>
+                    <button className='feed'><p>Enabled</p></button>
+                </div>
+                <div>
+                    <p>Chime Lobby</p>
+                    <button className='chime'><p>Hold 3 Sec</p></button>
+                </div>
             </div>
         </div>
     );

@@ -1,5 +1,14 @@
 /* Buttons */
 
+.prjPwr{
+  background-color: #312F3D;
+  height: 50px;
+  width: 200px;    
+  }
+.prjPwr:hover,
+.prjPwr:active{
+  background-color: #0C71C3;}
+
 .take{
   align-items: center;
   background-color: #312F3D;

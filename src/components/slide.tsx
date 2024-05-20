@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import '../styles/styles.css';
 import '../styles/mix.css';
 
-const Slide: React.FC = () => {
+const Slide = () => {
     const [value, setValue] = useState<number>(0);
+    const [audioText, setAudioText] = useState<string>('Audio');
 
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setValue(parseFloat(event.target.value));
@@ -11,7 +12,7 @@ const Slide: React.FC = () => {
 
     return (
         <div className="mix">
-            <div>audio</div>
+            <div>{audioText}</div>
             <div className='slider'>
                 <input 
                     type='range' 
@@ -23,10 +24,9 @@ const Slide: React.FC = () => {
                 />
             </div>
             <div>{Math.round(value)} dB</div>
-            <button>mute</button>
+            <button className='mute'></button>
         </div>
     );
 }
 
 export default Slide;
-

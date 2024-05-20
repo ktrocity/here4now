@@ -33,7 +33,9 @@ function Video() {
             <div className='subs'>
                 <div>
                     <h3>Projector Controls</h3>
-                    <button className='setting'>remote</button>
+                    <button className='prjPwr'>remote</button>
+                    <p>Currently Routing:</p>
+                    <p>BluRay Payer</p>
                     <h3>Projector Controls</h3>
                     <button className='setting'>remote</button>
                     <button className='setting'>remote</button>

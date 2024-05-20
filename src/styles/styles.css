@@ -42,15 +42,17 @@ button:active{
 }
 
   .chime{
-  align-items: center;
-  height: 100px;
-  width: 130px;    
+  align-items: flex-end;
+  background-image: url(../assets/125-90-Chime.svg);
+  height: 90px;
+  width: 125px;    
   }
 
   .feed{
-  align-items: center;
-  height: 100px;
-  width: 130px;    
+  align-items: flex-end;
+  background-image: url(../assets/125-90-ShowFeed.svg);
+  height: 90px;
+  width: 125px;    
   }
 
   .setting{
@@ -161,4 +163,8 @@ h1 {
 
 h3 {
   font-weight: 400;
+}
+
+p{
+  text-align: center;
 }
