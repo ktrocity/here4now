@@ -54,12 +54,20 @@ button:active{
   height: 90px;
   width: 125px;    
   }
+  .feed:hover,
+  .feed:active{
+  background-image: url(../assets/125-90-ShowFeed-Active.svg);
+  }
 
   .setting{
   align-items: center;
   background-color: #312F3D;
   height: 70px;
   width: 200px;    
+  }
+  .setting:hover,
+  .setting:active{
+  background-color: #0C6FC0;
   }
 
   .subshow{
